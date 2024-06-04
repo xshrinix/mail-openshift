@@ -36,4 +36,4 @@ def get_user_details():
 
 if __name__ == '__main__':  # Script executed directly?
     print("Hello ! Built with a Docker file.")
-    app.run(host="0.0.0.0", port=5000, debug=True,use_reloader=True)  # Launch built-in web server and run this Flask webapp
+    app.run(host="0.0.0.0", port=5010, debug=True,use_reloader=True)  # Launch built-in web server and run this Flask webapp
